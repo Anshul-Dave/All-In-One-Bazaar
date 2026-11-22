@@ -13,7 +13,7 @@ if (isset($_POST['add_category'])) {
     $filename = "";
 
     if (!empty($_FILES['image']['name'])) {
-
+ 
         $image = $_FILES['image']['name'];
         $tmp   = $_FILES['image']['tmp_name'];
 
